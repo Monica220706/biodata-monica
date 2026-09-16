@@ -1,0 +1,137 @@
+#root {
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #eb25d1;
+  padding: 15px 30px;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Greetings */
+.greetings {
+  text-align: center;
+  padding: 30px 20px 10px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+/* Features */
+.features {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feature-container {
+  display: grid;
+
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  );
+
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: white;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+}
+
+.feature-card h3 {
+  margin-top: 0;
+}
+
+/* Skills */
+.skills {
+  padding: 40px 20px;
+
+  text-align: center;
+
+  background-color: #f1f5f9;
+}
+
+.skill-list {
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 15px;
+}
+
+.skill-list span {
+  background-color: #e130de;
+
+  color: white;
+
+  padding: 10px 20px;
+
+  border-radius: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1e293b;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px;
+}
